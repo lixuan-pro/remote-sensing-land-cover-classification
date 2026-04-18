@@ -1,6 +1,6 @@
 import os
 
-data_dir = r"E:\Code\Py\remote-sensing-land-cover-classification/data/raw/EuroSAT_RGB"
+data_dir = r"D:\Code\Py\remote-sensing-land-cover-classification/data/raw/EuroSAT_RGB"
 
 if not os.path.exists(data_dir):
     print("数据路径不存在：", data_dir)

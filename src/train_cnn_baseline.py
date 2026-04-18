@@ -31,7 +31,7 @@ IMAGE_SIZE = 64
 BATCH_SIZE = 64
 NUM_WORKERS = 0   # Windows + PyCharm 先用 0，最稳
 LEARNING_RATE = 1e-3
-EPOCHS = 2        # 笔记本先做 smoke test；主机正式训练再改成 8~15
+EPOCHS = 15        # 笔记本先做 smoke test；主机正式训练再改成 8~15
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
